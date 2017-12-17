@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.translator.arturod.mdpmydankapp.grandad">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sharef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/abc_ic_menu_share_mtrl_alpha"    />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="347dp"
+        android:text="My Grandfather smoked his whole life. I was about 10 years old when my mother said to him, 'If you ever want to see your grandchildren graduate, you have to stop immediately.'. Tears welled up in his eyes when he realized what exactly was at stake. He gave it up immediately. Three years later he died of lung cancer. It was really sad and destroyed me. My mother said to me- 'Don't ever smoke. Please don't put your family through what your Grandfather put us through I agreed. At 28, I have never touched a cigarette. I must say, I feel a very slight sense of regret for never having done it, because your post gave me cancer anyway."
+        android:editable="true"
+        android:nestedScrollingEnabled="false"
+        android:layout_gravity="center"
+        android:scrollIndicators="right"
+        android:textSize="10dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/copyf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/abc_ic_menu_copy_mtrl_am_alpha"    />
+
+
+</FrameLayout>

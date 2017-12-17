@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.translator.arturod.mdpmydankapp.webview">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <WebView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/webView"
+        android:layout_gravity="center" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/site1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/abc_ic_menu_copy_mtrl_am_alpha" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/site2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/abc_ic_search_api_mtrl_alpha"    />
+
+</FrameLayout>

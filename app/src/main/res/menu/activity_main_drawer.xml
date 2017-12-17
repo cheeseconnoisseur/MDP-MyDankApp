@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item android:title="dank stuff">
+        <menu>
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/abc_ic_menu_selectall_mtrl_alpha"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+            android:title="browser" />
+            <item
+                android:id="@+id/memesetudio"
+                android:icon="@android:drawable/ic_menu_view"
+                android:title="Meme studio" />
+
+
+        </menu>
+        </item>
+    </group>
+
+    <item android:title="dank copy n pastes">
+        <menu>
+            <item
+                android:id="@+id/confu"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="ಠ_ಠ" />
+            <item
+                android:id="@+id/lenny"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="( ͡° ͜ʖ ͡°)" />
+            <item
+                android:id="@+id/devious"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="ಠ‿ಠ" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="navy seals" />
+            <item
+                android:id="@+id/wearenumber1"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="we are number one by robby rotten" />
+            <item
+            android:id="@+id/iamtheone"
+            android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+            android:title="I am the one" />
+            <item
+                android:id="@+id/legend1"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="the legend 27 script " />
+            <item
+                android:id="@+id/meme"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="i identify as a meme" />
+            <item
+                android:id="@+id/navyr"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="emergency broadcast" />
+            <item
+                android:id="@+id/grandad"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="grandad smoked..." />
+            <item
+                android:id="@+id/caillou"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="caillou rant" />
+            <item
+                android:id="@+id/rant"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="BEWARE HACKERS" />
+            <item
+                android:id="@+id/mehmeh"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="i love memes" />
+            <item
+                android:id="@+id/navym"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="navy medival version" />
+            <item
+                android:id="@+id/beescript"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="beemoviescript" />
+            <item
+                android:id="@+id/trumpscript"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="trump victory speech" />
+            <item
+                android:id="@+id/jets"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="lots of JETS!!!" />
+            <item
+                android:id="@+id/ah"
+                android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:title="attack helicopter" />
+
+
+        </menu>
+    </item>
+    <item android:title="others">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="settings" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.translator.arturod.mdpmydankapp.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sharef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/abc_ic_menu_share_mtrl_alpha"    />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="461dp"
+        android:text="Hey! We&apos;re Number One Hey! We&apos;re Number One Now listen closely Here&apos;s a little lesson in trickery This is going down in history If you wanna be a Villain Number One You have to chase a superhero on the run Just follow my moves, and sneak around Be careful not to make a sound Shh No, don&apos;t touch that! We&apos;re Number One Hey! We&apos;re Number One Ha ha ha Now look at this net, that I have found When I say go, be ready to throw Go! Throw it on him, not me! Uh, let&apos;s try something else Now watch and learn, here&apos;s the deal You slip and slide on this banana peel Ha ha ha, gasp! what are you doing!? ba-ba-biddly-ba-ba-ba-ba, ba-ba-ba-ba-ba-ba-ba We&apos;re Number One Hey! ba-ba-biddly-ba-ba-ba-ba, ba-ba-ba-ba-ba-ba-ba We&apos;re Number One ba-ba-biddly-ba-ba-ba-ba, ba-ba-ba-ba-ba-ba-ba We&apos;re Number One Hey! ba-ba-biddly-ba-ba-ba-ba, ba-ba-ba-ba-ba-ba-ba We&apos;re Number One Hey! Hey!"
+        android:editable="true"
+        android:nestedScrollingEnabled="true"
+        android:layout_gravity="center"
+        android:scrollIndicators="right"
+        android:textSize="12dp"
+        android:id="@+id/number1"
+        android:maxLines = "10000"
+
+        android:scrollbars = "vertical"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/copyf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/abc_ic_menu_copy_mtrl_am_alpha"    />
+
+
+
+</FrameLayout>

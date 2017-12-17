@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.translator.arturod.mdpmydankapp.meme">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sharef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/abc_ic_menu_share_mtrl_alpha"    />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="399dp"
+        android:text="I sexually Identify as a meme. Ever since I was a boy I dreamed of being uploaded onto the imgur website and linked into the reddit threads. People say to me that a person being a meme is Impossible and I’m fucking retarded but I don’t care, I’m beautiful. I’m having a computer scientist put my brain into my computer like johnny depp in transendence, equipping me with the dankest of pictures from the internet. From now on I want you guys to call me “Sir Danks-a-lot” and respect my right to meme from above and meme needlessly. If you can’t accept me you’re a memephobe and need to check your internet privilege. Thank you for being so understanding.
+"
+        android:editable="true"
+        android:nestedScrollingEnabled="true"
+        android:layout_gravity="center"
+        android:scrollIndicators="right"
+        android:textSize="16dp"
+        android:id="@+id/number1"
+        android:maxLines = "10000"
+
+        android:scrollbars = "vertical"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/copyf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/abc_ic_menu_copy_mtrl_am_alpha"    />
+
+
+
+
+
+</FrameLayout>

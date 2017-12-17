@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.translator.arturod.mdpmydankapp.jets">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sharef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/abc_ic_menu_share_mtrl_alpha"    />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="399dp"
+        android:text=" Heeeeeeere they come, screaming across the sky: it's Lots and Lots of Jets and Planes, the GREATEST collection of aviation DVDs we've EVER offered! And through this special TV offer you can get 2 DVDs for the price of one! You'll get to see big planes, little planes, soaring, stunt, and passenger planes. Even planes the fly REAL LOW! Old planes, new planes, fast planes, slooow planes. Smoking planes, even planes at supersonic speeds, plus much much more when you order Lots and Lots of Jets and Planes! Each DVD is jam-packed with lots of high-flyin’, close-up action! This special TV offer is not available in stores. Remember, you can get 2 DVDs, over 2 HOURS of non-stop aviation action, for the price of ONE! It's Lots and Lots of Jets and Planes! You can order now and receive a free bonus CD of Jet Plane Songs, must be 18 years or older to call, 888-300-3455. Parents, call 888-300-3455, satisfaction guaranteed! That's 888-300-3455 for Lots of Jets and Planes!"
+        android:editable="true"
+        android:nestedScrollingEnabled="true"
+        android:layout_gravity="center"
+        android:scrollIndicators="right"
+        android:textSize="11dp"
+        android:id="@+id/number1"
+        android:maxLines = "10000"
+
+        android:scrollbars = "vertical"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/copyf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/abc_ic_menu_copy_mtrl_am_alpha"    />
+
+
+
+
+
+</FrameLayout>

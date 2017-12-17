@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.translator.arturod.mdpmydankapp.navyresponse">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sharef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/abc_ic_menu_share_mtrl_alpha"    />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="371dp"
+        android:text="This is a test of the Emergency Broadcast System. The broadcasters of your area in voluntary cooperation with the FCC and other authorities have developed this system to keep you informed in the event of an emergency. This is only a test. If this were a real emergency, important instructions would follow after the tone. This is only a test.on "
+        android:editable="true"
+        android:nestedScrollingEnabled="false"
+        android:layout_gravity="center"
+        android:scrollIndicators="right"
+        android:textSize="10dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/copyf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/abc_ic_menu_copy_mtrl_am_alpha"    />
+
+
+</FrameLayout>

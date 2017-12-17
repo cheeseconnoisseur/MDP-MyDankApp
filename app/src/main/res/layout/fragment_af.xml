@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.translator.arturod.mdpmydankapp.af">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sharef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/abc_ic_menu_share_mtrl_alpha"    />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="399dp"
+        android:text=" Caillou is a despicable, spineless 4-year-old boy who cannot do anything. He can't grow hair, not because he has cancer or progeria, but because he sucks, and even his own body recognizes that he does not deserve hair or food or love. He has a baby sister who dominates his life because she is a normal, loving child who does not whine about the slightest fart of the breeze. Caillou's parents love her better because she is a better person."
+        android:editable="true"
+        android:nestedScrollingEnabled="true"
+        android:layout_gravity="center"
+        android:scrollIndicators="right"
+        android:textSize="16dp"
+        android:id="@+id/number1"
+        android:maxLines = "10000"
+
+        android:scrollbars = "vertical"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/copyf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/abc_ic_menu_copy_mtrl_am_alpha"    />
+
+
+
+
+
+</FrameLayout>

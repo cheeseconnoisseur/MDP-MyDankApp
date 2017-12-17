@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.translator.arturod.mdpmydankapp.legend">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sharef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/abc_ic_menu_share_mtrl_alpha"    />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="399dp"
+        android:text="What are you guys playing? I’m supposed to be playing Game Of War™ but this one player keeps kicking my ass. Is it TheLegend27?! Yeah, TheLegend27. Who is the legend 27? Spoiler Some say TheLegend27 is the first Game Of War™ player ever. Born from fire. I heard, TheLegend27 can hurl a boulder farther than a catapult. I heard TheLegend27 once defeated an entire army with a single blow. But the worst part is, just when you think you’re safe, just when you think you might escape… WHAM!!! Just like that! collective gasps Iphone Notification What? No, no no no, no no no! Iphone Notification That’s impossible! “TheLegend27” has captured my hero! Mine too! Aw you guys, I’m sure it’s not that bad. You have no idea what just happened. I might have some idea. Woman turns around, and powers her device’s screen, showing she is in fact TheLegend27"
+        android:editable="true"
+        android:nestedScrollingEnabled="true"
+        android:layout_gravity="center"
+        android:scrollIndicators="right"
+        android:textSize="16dp"
+        android:id="@+id/number1"
+        android:maxLines = "10000"
+
+        android:scrollbars = "vertical"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/copyf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/abc_ic_menu_copy_mtrl_am_alpha"    />
+
+
+
+
+
+    </FrameLayout>
